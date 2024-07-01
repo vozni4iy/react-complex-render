@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "serve": "serve -s dist -l 5000"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -26,6 +27,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "prettier": "^3.3.2",
+    "sass": "^1.77.6",
+    "serve": "^14.2.3",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }
