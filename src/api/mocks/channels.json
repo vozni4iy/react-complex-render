@@ -1,0 +1,493 @@
+[
+  {
+    "id": "1",
+    "name": "Channel 1",
+    "description": "swung missing twenty vegetable upon gently tea",
+    "programs": [
+      {
+        "id": "1-0",
+        "name": "combine",
+        "description": "chain adventure mile shake evidence ill stiff",
+        "type": "cartoons",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-1",
+        "name": "extra customs",
+        "description": "belong had electricity volume similar care job",
+        "type": "travel",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-2",
+        "name": "mood three statement",
+        "description": "reason soil halfway describe library knew national must",
+        "type": "documentaries",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-3",
+        "name": "leaf",
+        "description": "acres promised instrument rich town",
+        "type": "talk",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-4",
+        "name": "below",
+        "description": "statement lonely perfect jet finally",
+        "type": "music",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-5",
+        "name": "hunt",
+        "description": "view religious born expect swing color discussion quick",
+        "type": "movies",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-6",
+        "name": "slowly rest rose",
+        "description": "composed pressure silver married buy original policeman zipper",
+        "type": "reality",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-7",
+        "name": "bridge farther unusual",
+        "description": "leaf care method up bright please accurate hurt during bound",
+        "type": "documentaries",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-8",
+        "name": "few original corn",
+        "description": "gate lamp victory dress usually",
+        "type": "cooking",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-9",
+        "name": "ourselves underline fact",
+        "description": "second paper scared exercise simply beyond rhyme cent",
+        "type": "news",
+        "channelId": "1",
+        "length": 180
+      },
+      {
+        "id": "1-10",
+        "name": "loud",
+        "description": "strange road relationship cattle building movie eventually",
+        "type": "news",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-11",
+        "name": "bottle got",
+        "description": "six inside bare strike national sitting excitement chief asleep",
+        "type": "documentaries",
+        "channelId": "1",
+        "length": 60
+      },
+      {
+        "id": "1-12",
+        "name": "differ receive",
+        "description": "win half split valuable job policeman road library",
+        "type": "music",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-13",
+        "name": "bring transportation",
+        "description": "blow ready tight exactly thousand there damage may flat fought",
+        "type": "music",
+        "channelId": "1",
+        "length": 120
+      },
+      {
+        "id": "1-14",
+        "name": "tropical someone",
+        "description": "parallel managed seems cutting skin",
+        "type": "sports",
+        "channelId": "1",
+        "length": 120
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Channel 2",
+    "description": "couple music lesson average late slabs its coffee exactly",
+    "programs": [
+      {
+        "id": "2-0",
+        "name": "young cutting grain",
+        "description": "kept met combination enemy stand",
+        "type": "talk",
+        "channelId": "2",
+        "length": 120
+      },
+      {
+        "id": "2-1",
+        "name": "flame",
+        "description": "chemical before cowboy fewer trip swimming measure track young",
+        "type": "music",
+        "channelId": "2",
+        "length": 120
+      },
+      {
+        "id": "2-2",
+        "name": "universe needed pond",
+        "description": "breeze machine won favorite chain behind magic drink",
+        "type": "talk",
+        "channelId": "2",
+        "length": 180
+      },
+      {
+        "id": "2-3",
+        "name": "either grass of",
+        "description": "weather introduced but during worried price pet seen",
+        "type": "travel",
+        "channelId": "2",
+        "length": 60
+      },
+      {
+        "id": "2-4",
+        "name": "most program fifty",
+        "description": "habit shall warm slow even huge flower difference",
+        "type": "cooking",
+        "channelId": "2",
+        "length": 60
+      },
+      {
+        "id": "2-5",
+        "name": "crowd",
+        "description": "joined selection three saddle nearby",
+        "type": "news",
+        "channelId": "2",
+        "length": 180
+      },
+      {
+        "id": "2-6",
+        "name": "build",
+        "description": "effort somehow gift sharp yet joy excellent case we",
+        "type": "reality",
+        "channelId": "2",
+        "length": 180
+      },
+      {
+        "id": "2-7",
+        "name": "jungle right effort",
+        "description": "dangerous whatever year baby surface",
+        "type": "travel",
+        "channelId": "2",
+        "length": 120
+      },
+      {
+        "id": "2-8",
+        "name": "burst cover",
+        "description": "blank die rule tiny lion represent built load tears limited",
+        "type": "music",
+        "channelId": "2",
+        "length": 60
+      },
+      {
+        "id": "2-9",
+        "name": "tree great",
+        "description": "leaf send rubber indeed settle question",
+        "type": "music",
+        "channelId": "2",
+        "length": 60
+      },
+      {
+        "id": "2-10",
+        "name": "labor",
+        "description": "say chain type fence wrong moving train family forty",
+        "type": "movies",
+        "channelId": "2",
+        "length": 120
+      },
+      {
+        "id": "2-11",
+        "name": "struggle",
+        "description": "station rush fox soldier term surface",
+        "type": "travel",
+        "channelId": "2",
+        "length": 120
+      },
+      {
+        "id": "2-12",
+        "name": "secret building memory",
+        "description": "classroom crowd cry double belt gain",
+        "type": "news",
+        "channelId": "2",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Channel 3",
+    "description": "near farmer gate unless angle bone",
+    "programs": [
+      {
+        "id": "3-0",
+        "name": "half sale",
+        "description": "bill advice early bee hidden loose species question depend tears",
+        "type": "movies",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-1",
+        "name": "parallel dull",
+        "description": "usual health especially record soap represent effort length studied",
+        "type": "news",
+        "channelId": "3",
+        "length": 120
+      },
+      {
+        "id": "3-2",
+        "name": "enough south",
+        "description": "hope carried product planet growth according none",
+        "type": "cooking",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-3",
+        "name": "congress recall chance",
+        "description": "than dear noise diameter already here funny two off tea",
+        "type": "cooking",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-4",
+        "name": "effect transportation victory",
+        "description": "fact gun art apartment nearest rule basis library trade also",
+        "type": "reality",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-5",
+        "name": "ring dirt adjective",
+        "description": "running let hold kitchen thrown father",
+        "type": "documentaries",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-6",
+        "name": "general",
+        "description": "to ice whale be promised spider selection union",
+        "type": "travel",
+        "channelId": "3",
+        "length": 180
+      },
+      {
+        "id": "3-7",
+        "name": "expect raw color",
+        "description": "force clock together send grew sun",
+        "type": "documentaries",
+        "channelId": "3",
+        "length": 60
+      },
+      {
+        "id": "3-8",
+        "name": "station useful",
+        "description": "bow hang word football tobacco",
+        "type": "talk",
+        "channelId": "3",
+        "length": 180
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Channel 4",
+    "description": "dollar forty drive mysterious generally zero must usual",
+    "programs": [
+      {
+        "id": "4-0",
+        "name": "damage",
+        "description": "higher cook swept course from character",
+        "type": "reality",
+        "channelId": "4",
+        "length": 60
+      },
+      {
+        "id": "4-1",
+        "name": "form detail",
+        "description": "correct charge library job forty article",
+        "type": "reality",
+        "channelId": "4",
+        "length": 60
+      },
+      {
+        "id": "4-2",
+        "name": "clear known during",
+        "description": "member or star elephant wealth because correctly compound trade minerals",
+        "type": "talk",
+        "channelId": "4",
+        "length": 120
+      },
+      {
+        "id": "4-3",
+        "name": "damage",
+        "description": "week simple though rule gate examine scientific",
+        "type": "documentaries",
+        "channelId": "4",
+        "length": 180
+      },
+      {
+        "id": "4-4",
+        "name": "scene fall usual",
+        "description": "begun particular yourself pine regular",
+        "type": "talk",
+        "channelId": "4",
+        "length": 180
+      },
+      {
+        "id": "4-5",
+        "name": "grow",
+        "description": "strike plastic gift period bigger apple instead key",
+        "type": "movies",
+        "channelId": "4",
+        "length": 120
+      },
+      {
+        "id": "4-6",
+        "name": "spirit carry",
+        "description": "round compass surface kill bottom suggest attention fighting chicken remarkable",
+        "type": "music",
+        "channelId": "4",
+        "length": 180
+      },
+      {
+        "id": "4-7",
+        "name": "failed adventure joy",
+        "description": "extra express breathe day board short introduced",
+        "type": "sports",
+        "channelId": "4",
+        "length": 180
+      },
+      {
+        "id": "4-8",
+        "name": "mountain selection",
+        "description": "nothing was born vowel individual swept require",
+        "type": "sports",
+        "channelId": "4",
+        "length": 180
+      },
+      {
+        "id": "4-9",
+        "name": "hollow",
+        "description": "pine pure fear lower muscle bicycle done",
+        "type": "cartoons",
+        "channelId": "4",
+        "length": 180
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Channel 5",
+    "description": "buffalo pictured new peace tin vertical vessels factor condition",
+    "programs": [
+      {
+        "id": "5-0",
+        "name": "original topic fort",
+        "description": "spin engine women national each",
+        "type": "music",
+        "channelId": "5",
+        "length": 60
+      },
+      {
+        "id": "5-1",
+        "name": "up magic",
+        "description": "uncle plant thing rising across climb make",
+        "type": "reality",
+        "channelId": "5",
+        "length": 60
+      },
+      {
+        "id": "5-2",
+        "name": "hard our",
+        "description": "equally else father actual bus against minerals mother",
+        "type": "documentaries",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-3",
+        "name": "race",
+        "description": "through became suppose gasoline morning printed scientific bean gold",
+        "type": "talk",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-4",
+        "name": "love whom sides",
+        "description": "port closer together mice leaving football",
+        "type": "cartoons",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-5",
+        "name": "appearance",
+        "description": "traffic sea built took won range soap supper",
+        "type": "documentaries",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-6",
+        "name": "forest",
+        "description": "rapidly earlier bus conversation becoming",
+        "type": "music",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-7",
+        "name": "village",
+        "description": "discuss wish broad load greatly west special",
+        "type": "documentaries",
+        "channelId": "5",
+        "length": 180
+      },
+      {
+        "id": "5-8",
+        "name": "onto bark shut",
+        "description": "east eat studied brick hard throat",
+        "type": "documentaries",
+        "channelId": "5",
+        "length": 120
+      },
+      {
+        "id": "5-9",
+        "name": "time",
+        "description": "saw ready page although maybe engineer came",
+        "type": "sports",
+        "channelId": "5",
+        "length": 180
+      }
+    ]
+  }
+]
