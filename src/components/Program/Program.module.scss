@@ -1,4 +1,4 @@
-@import '../styles/variables';
+@import '../../styles/variables';
 
 .program {
   display: flex;
@@ -7,6 +7,7 @@
   border: 1px solid #ccc;
   overflow: hidden;
   box-sizing: border-box;
+  border-collapse: collapse;
 }
 
 .avatar {

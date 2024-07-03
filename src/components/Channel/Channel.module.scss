@@ -1,0 +1,6 @@
+@import '../../styles/variables';
+
+.channel {
+  display: flex;
+  width: #{1440 * $program-length-multiplier}px;
+}

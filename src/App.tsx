@@ -2,22 +2,12 @@ import { useEffect } from 'react';
 
 import './App.scss';
 import { getChannels } from './api/queries/getChannels';
-import Program from './components/ProgramView';
-import { Program as ProgramInterface, ProgramType } from './models';
+import { ChannelList } from './components/ChannelList/ChannelList';
 
 import { useStore } from './store/store';
 
-const sampleProgram: ProgramInterface = {
-  id: '1',
-  name: 'Sample Program',
-  description: 'This is a sample program description.',
-  type: ProgramType.Cartoons,
-  channelId: '1',
-  length: 60, // in minutes
-};
-
 const App = () => {
-  const { setChannels } = useStore();
+  const { channels, setChannels } = useStore();
 
   useEffect(() => {
     const fetchChannels = async () => {
@@ -33,11 +23,8 @@ const App = () => {
 
   return (
     <>
-      <div>
-        <h1>Vite + React + Zustand</h1>
-        <p>Channel descriptions have been logged to the console.</p>
-      </div>
-      <Program program={sampleProgram} />
+      <h1>React complex render demo</h1>
+      {channels.length > 0 && <ChannelList channels={channels} />}
     </>
   );
 };

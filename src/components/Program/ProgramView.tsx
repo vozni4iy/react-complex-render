@@ -2,8 +2,8 @@ import React from 'react';
 
 import styles from './Program.module.scss';
 
-import { Program as ProgramInterface } from '../models';
-import { getAvatarImageSrc } from '../utils/getAvatarImage';
+import { Program as ProgramInterface } from '../../models';
+import { getAvatarImageSrc } from '../../utils/getAvatarImage';
 
 const PROGRAM_LENGTH_MULTIPLIER = 5;
 
