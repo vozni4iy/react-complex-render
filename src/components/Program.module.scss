@@ -1,0 +1,40 @@
+@import '../styles/variables';
+
+.program {
+  display: flex;
+  align-items: center;
+  height: $program-height;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.avatar {
+  width: $program-height;
+  height: $program-height;
+  object-fit: cover;
+  border-right: 1px solid #ccc;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  flex: 1;
+  overflow: hidden;
+
+  .name,
+  .description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .description {
+    color: #666;
+  }
+}
