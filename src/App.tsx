@@ -1,33 +1,31 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 
 import './App.scss';
-import reactLogo from './assets/react.svg';
+import { getChannels } from './api/queries/getChannels';
 
-import viteLogo from '/vite.svg';
+import { useStore } from './store/store';
 
-function App() {
-  const [count, setCount] = useState(0);
+const App = () => {
+  const { setChannels } = useStore();
+
+  useEffect(() => {
+    const fetchChannels = async () => {
+      const channelsData = await getChannels();
+      setChannels(channelsData);
+      channelsData.forEach((channel) => {
+        console.info(channel.description);
+      });
+    };
+
+    fetchChannels();
+  }, [setChannels]);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+    <div>
+      <h1>Vite + React + Zustand</h1>
+      <p>Channel descriptions have been logged to the console.</p>
+    </div>
   );
-}
+};
 
 export default App;
