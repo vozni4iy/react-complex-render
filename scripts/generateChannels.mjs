@@ -39,6 +39,7 @@ const generateProgramsForChannel = (channelId) => {
       type: generateRandomProgramType(),
       channelId: channelId,
       length: length,
+      start: totalLength,
     });
     totalLength += length;
     i++;

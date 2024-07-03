@@ -20,4 +20,5 @@ export interface Program {
   type: ProgramType;
   channelId: string;
   length: number; // in minutes
+  start: number; //in minutes
 }
