@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite complex render example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+### Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is done to demo a code style and main principles of my work.
+For now, it renders a dynamic both vertical and horizontal scrolled daily tv program (and how react handles this complex render). The project is flexible to contain more features in future.
 
-## Expanding the ESLint configuration
+### Main points
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- a typical modular project structure
+- use linter, prettier and trivago import order for better dev UX
+- use vite as it has better performance and less bundle size vs webpack
+- use sass for styles to be compiled at build time (for faster render)
+- use zustand for simple and lightweight store
+- use luxon as more modern date handling lib vs moment
+- use css modules inside components for unique classnames
+- use nodejs script to generate channels shown in react
+- use random words lib to create program names and description
+- use DALL_E to create images for tv program avatars
 
-- Configure the top-level `parserOptions` property like this:
+## Scripts
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-};
+```sh
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+to install all dependencies
+
+```sh
+npm run generate-channels ARG
+```
+
+if you want to generate another channels shown in react. ARG could be a number of channels generated or undefined (5 ones will be generated then)
+
+```sh
+npm run dev
+```
+
+start the project
+
+```sh
+npm run lint
+npm run format
+```
+
+use linter and prettier for better dev experience
+
+```sh
+npm run build
+npm run serve
+```
+
+create a production build and serve it locally
